@@ -1,0 +1,10 @@
+
+create table tabela1
+(
+   id int primary key identity,
+   bairro varchar(80),
+   cep varchar(10)
+)
+
+select * from contatos
+select * from tabela1
